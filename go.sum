@@ -1,0 +1,8 @@
+github.com/Emeline-1/basic_graph v0.0.0-20210611132625-d54848e8e55c h1:3zZTf0BKWfvhK2WpKRU9+cnZW9fJAIuJI6hw4dg5tRo=
+github.com/Emeline-1/basic_graph v0.0.0-20210611132625-d54848e8e55c/go.mod h1:QXPs6nADi5B7AwGY8Ec4Xs2RPR78VNZ9riYnGlZ+3fI=
+github.com/Emeline-1/pool v0.0.0-20210201102414-5592f0777692 h1:u0egnSkkh7BSQ/unSF8DqCW8XoFvvEql1GiRpXvUQxc=
+github.com/Emeline-1/pool v0.0.0-20210201102414-5592f0777692/go.mod h1:l3hpvDdbbF07inYDoHG1IshmK844baqD3w6QmBXy1Yw=
+github.com/Emeline-1/radix v0.0.0-20210611134724-ed70c53da29e h1:g9Mdl5z8uAHPKDZpYlG63sbEnk+SMS8Hs1HftdGVgu8=
+github.com/Emeline-1/radix v0.0.0-20210611134724-ed70c53da29e/go.mod h1:8WmPgfyfL0Vw/LmgP63eMKmXGQk2AQuZopmDAP8jF5E=
+github.com/mattn/go-sqlite3 v1.14.8 h1:gDp86IdQsN/xWjIEmr9MF6o9mpksUgh0fu+9ByFxzIU=
+github.com/mattn/go-sqlite3 v1.14.8/go.mod h1:NyWgC/yNuGj7Q9rpYnZvas74GogHl5/Z4A/KQRfk6bU=
