@@ -17,12 +17,10 @@ This project is composed of two parts:
 * _Anaximander_ makes use of BGP information. Go to the [BGPStream's webpage](https://bgpstream.caida.org/docs/tools/bgpreader), to install `bgpreader`, a tool for parsing RIB dumps.
 * To parse warts files (CAIDA file format for Traceroutes), _Anaximander_ makes use of [TNT](https://github.com/YvesVanaubel/TNT), an extension to scamper [1] able to reveal MPLS tunnels. In the context of this project, `TNT` is only used as a file parser, not a prober.
 * This project is written in the Go language, please refer to [Go installation's webpage](https://golang.org/doc/install) to set up Go on your machine.
-* Download and install the various Go packages needed to run _Anaximander_ Simulator, with the commands:
-  * `> go get github.com/Emeline-1/pool`
-  * `> go get github.com/Emeline-1/radix`
-  * `> go get github.com/Emeline-1/basic_graph`
-  * `> go get github.com/mattn/go-sqlite3` 
-* Clone this repo in the `go/src` folder, then go into the anaximander folder and type `go build`.
+* Download and install the _Anaximander_ Simulator with the command:
+```
+go install github.com/Emeline-1/anaximander
+```
 
 ## Necessary Datasets
 
