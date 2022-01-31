@@ -2,7 +2,7 @@ package main
 
 import ("log"
     "strings"
-    tree "github.com/Emeline-1/anaximander/tree")
+    tree "github.com/Emeline-1/anaximander_simulator/tree")
 
 /**
  * Array holding all heuristic functions

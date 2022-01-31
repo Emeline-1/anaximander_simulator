@@ -19,7 +19,7 @@ This project is composed of two parts:
 * This project is written in the Go language, please refer to [Go installation's webpage](https://golang.org/doc/install) to set up Go on your machine.
 * Download and install the _Anaximander_ Simulator with the command:
 ```
-go install github.com/Emeline-1/anaximander
+go install github.com/Emeline-1/anaximander_simulator
 ```
 
 ## Necessary Datasets
