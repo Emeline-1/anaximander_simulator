@@ -1,6 +1,6 @@
 # Anaximander Strategy and Simulator
 
-_Anaximander_ is an ISP probing tool implementing several reduction techniques to cut down the number of probes launched in order to map an Autonomous System, while still keeping high discovery levels.
+_Anaximander_ [1] is an ISP probing tool implementing several reduction techniques to cut down the number of probes launched in order to map an Autonomous System, while still keeping high discovery levels.
 
 <img src="anaximander_picture.png" alt="Anaximander process" height="320"/>
 
@@ -15,7 +15,7 @@ This project is composed of two parts:
 ## Installation & Dependencies
 
 * _Anaximander_ makes use of BGP information. Go to the [BGPStream's webpage](https://bgpstream.caida.org/docs/tools/bgpreader), to install `bgpreader`, a tool for parsing RIB dumps.
-* To parse warts files (CAIDA file format for Traceroutes), _Anaximander_ makes use of [TNT](https://github.com/YvesVanaubel/TNT), an extension to scamper [1] able to reveal MPLS tunnels. In the context of this project, `TNT` is only used as a file parser, not a prober.
+* To parse warts files (CAIDA file format for Traceroutes), _Anaximander_ makes use of [TNT](https://github.com/YvesVanaubel/TNT), an extension to scamper [2] able to reveal MPLS tunnels. In the context of this project, `TNT` is only used as a file parser, not a prober.
 * This project is written in the Go language, please refer to [Go installation's webpage](https://golang.org/doc/install) to set up Go on your machine.
 * Download and install the _Anaximander_ Simulator with the command:
 ```
@@ -127,5 +127,7 @@ Each usefull probe (i.e., a probe that hit the AS of interest and discovered som
 The secondary output contains additional information that can be useful for further analysing or plotting the results.
 
 ***
-[1] M. LUCKIE, Scamper: a Scalable and Extensible Packet Prober for Active Measurement of the Internet, ACM SIGCOMM Internet Measurement Conference, November 2010. See [https://www.caida.org/tools/measurement/scamper/](https://www.caida.org/tools/measurement/scamper/)
+[1] Marechal, E., Mérindol, P., & Donnet, B. (2022). ISP Probing Reduction with Anaximander. In Passive and Active Measurement Conference. See [https://orbi.uliege.be/bitstream/2268/267688/1/paper.pdf](https://orbi.uliege.be/bitstream/2268/267688/1/paper.pdf)
+
+[2] Luckie, M. Scamper: a Scalable and Extensible Packet Prober for Active Measurement of the Internet, ACM SIGCOMM Internet Measurement Conference, November 2010. See [https://www.caida.org/tools/measurement/scamper/](https://www.caida.org/tools/measurement/scamper/)
 
